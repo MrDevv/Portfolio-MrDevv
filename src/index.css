@@ -1,0 +1,91 @@
+/* Variables */
+:root{
+    --main-bg-color: #191924;
+    --second-bg-color: #FFCF01;
+    --main-font: 'Poppins', sans-serif;
+}
+
+/* Globales */
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding: 8rem;
+}
+
+*{
+    box-sizing: inherit;    
+    margin: 0;
+    font-family: var(--main-font);
+}
+
+.container{
+    max-width: 120rem;
+}
+
+/* Navbar */
+.container_navbar{
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.container_logo_links_github{    
+    align-items: center;
+    display: flex;        
+    justify-content: space-between;    
+    width: 100%;        
+}
+
+.logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.links{    
+    display: flex;
+    justify-content: center;
+    gap: 3.2rem;    
+}
+
+.links a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: 7.7rem;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+.github a{
+    display: block;
+    text-decoration: none;
+    color: var(--second-bg-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 1px solid var(--second-bg-color);
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    transition: all 0.8s ease-in-out;
+}
+
+.github a:hover{
+    color: var(--main-bg-color);
+    background-color: var(--second-bg-color);
+}
+
+.links a:hover{
+    color: var(--second-bg-color);
+}
+
+.links .active {
+    color: var(--second-bg-color);
+    border-bottom: 3px solid var(--second-bg-color);
+}
