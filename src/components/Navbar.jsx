@@ -14,7 +14,7 @@ export const Navbar = () => {
     <div className="container_navbar">
       <div className="container_logo_links_github container">
         <div className="logo">
-          <Link to={"/"}>MrDevv</Link>
+          <Link to={"/"} onClick={()=> setActiveSection(null)}>MrDevv</Link>
         </div>
         <div className="links">
           <a
