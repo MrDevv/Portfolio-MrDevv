@@ -122,6 +122,8 @@ body{
 }
 
 .presentation p:nth-child(2){
+    display: flex;
+    gap: 1rem;
     font-size: 3.2rem;
     font-weight: 600;
     margin-bottom: 1rem;
