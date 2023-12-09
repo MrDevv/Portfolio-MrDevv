@@ -2,6 +2,7 @@
 :root{
     --main-bg-color: #191924;
     --second-bg-color: #FFCF01;
+    --base-bg-color: #1C1C27;
     --main-font: 'Poppins', sans-serif;
 }
 
@@ -17,6 +18,10 @@ html{
     box-sizing: inherit;    
     margin: 0;
     font-family: var(--main-font);
+}
+
+body{
+    background-color: var(--base-bg-color);
 }
 
 .container{
@@ -39,11 +44,16 @@ html{
     width: 100%;        
 }
 
-.logo a{
-    color: #fff;
+.logo a,
+.links a,
+.github a{
+    color: #FFF;
     text-decoration: none;
+}
+
+.logo a{    
     font-size: 1.8rem;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .links{    
@@ -54,19 +64,16 @@ html{
 
 .links a{
     display: flex;
-    align-items: center;
-    color: #fff;
+    align-items: center;    
     height: 7.7rem;
-    border-bottom: 3px solid transparent;
-    text-decoration: none;
+    border-bottom: 3px solid transparent;    
     font-size: 1.5rem;
     font-weight: 500;
     transition: all 0.2s ease-in-out;
 }
 
 .github a{
-    display: block;
-    text-decoration: none;
+    display: block;    
     color: var(--second-bg-color);
     font-size: 1.5rem;
     font-weight: 500;
@@ -88,4 +95,74 @@ html{
 .links .active {
     color: var(--second-bg-color);
     border-bottom: 3px solid var(--second-bg-color);
+}
+
+/* about */
+.container_about{
+    background-color: #191924;    
+    display: flex;
+    justify-content: center;
+    padding: 8rem 0;
+    clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 70% 95%, 0px 100%);
+}
+
+.container_presentation_profile{    
+    display: flex;
+    width: 100%;
+}
+
+.presentation{
+    width: 50%;
+    color: #FFF;
+}
+
+.presentation h2{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.presentation p:nth-child(2){
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.presentation p:nth-child(2) span{
+    color: var(--second-bg-color);
+}
+
+.presentation p:nth-child(3){
+    font-size: 2rem;
+    color: grey;
+    margin-bottom: 3rem;
+}
+
+.presentation a{
+    display: block;
+    width: 25rem;
+    padding: 1rem 0;
+    border-radius: 1rem;
+    background-color: var(--second-bg-color);    
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--main-bg-color);
+    transition: all 0.4s ease-in-out;
+}
+
+.presentation a:hover{
+    outline: 2px solid var(--second-bg-color);
+    color: #FFF;
+    background-color: transparent;
+}
+
+.profile_image{
+    width: 50%;
+    display: flex;
+    justify-content: center;    
+}
+
+.profile_image img{
+    border-radius: 50%;    
 }
