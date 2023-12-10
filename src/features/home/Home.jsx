@@ -9,8 +9,8 @@ export const Home = () => {
     <>
       <Navbar />      
       <About/>
-      {/* <Skills/> */}
-      {/* <Projects/> */}
+      <Skills/>
+      <Projects/>
     </>
   );
 };

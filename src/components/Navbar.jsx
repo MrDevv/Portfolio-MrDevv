@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
   const [activeSection, setActiveSection] = useState(null);
 
-  const isActive = (section) => section === activeSection && "active" ;
+  const isActive = (section) => section === activeSection ? "active" : undefined;
 
   const handleLinkClick = (section) => {
     setActiveSection(section === activeSection ? null : section);
