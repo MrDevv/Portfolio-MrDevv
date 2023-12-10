@@ -3,7 +3,7 @@ import React from 'react'
 export const Projects = () => {
   return (
     <div id="projects" className='section_projects'>
-        <h1>Projects</h1>
+        <h3>Projects</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias odit ab ut, maiores, tenetur cupiditate, quod omnis at ratione fuga amet laudantium necessitatibus? Ea quis, odit sint minus recusandae vero.
         Magnam voluptate voluptates omnis dicta pariatur! Enim ducimus debitis quaerat aperiam accusantium mollitia ab expedita est? Reiciendis cumque cum error nam labore adipisci quisquam sit, culpa dolorem rerum. Voluptatibus, repellat!
         Itaque adipisci minima rem voluptates? Temporibus omnis odit accusamus accusantium! Nesciunt veniam ullam dolorem hic ad aspernatur corporis quos aut soluta recusandae! Dicta possimus dolores delectus nam sapiente aliquid cum.

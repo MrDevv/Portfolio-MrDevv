@@ -189,7 +189,8 @@ body {
   flex-wrap: wrap;
 }
 
-.section_skills h3 {
+.section_skills h3,
+.section_projects h3 {
   color: #fff;
   font-size: 4.2rem;
   font-weight: 600;
@@ -238,6 +239,6 @@ body {
 /* Projects */
 .section_projects {
   padding-top: 5rem;
-  clip-path: polygon(0px 20%, 100% 0px, 100% 100%, 0% 93%, 0% 0%);
+  clip-path: polygon(0px 5%, 100% 0px, 100% 100%, 0% 93%, 0% 0%);
   background-color: var(--main-bg-color);
 }
