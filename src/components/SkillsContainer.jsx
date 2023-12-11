@@ -7,7 +7,7 @@ export const SkillsContainer = ({ title, skills }) => {
       <h4>{title}</h4>
       <div className="list_skills">
         {skills.map((skill) => (
-          <Skill skill={skill}/>
+          <Skill key={skill.name} skill={skill}/>
         ))}
       </div>
     </div>

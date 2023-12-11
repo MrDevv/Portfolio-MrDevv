@@ -322,10 +322,10 @@ body {
 }
 
 .card_project img{
-  border-radius: 1rem;
+   border-radius: 1rem;
   width: 100%;
   height: 180px;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem;   
 }
 
 .card_project .technologies{
@@ -334,6 +334,8 @@ body {
   justify-content: center;
   gap: 1rem;
   margin-bottom: 1rem;
+
+  min-height: 9.4rem;
 }
 
 .card_project .technologies .technology{
@@ -342,6 +344,7 @@ body {
   border-radius: 1rem;
   background-color: #ffcf0115;
   color: var(--second-bg-color);
+  max-height: 24.66px;
 }
 
 .card_project .description .title{
