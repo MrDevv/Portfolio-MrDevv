@@ -10,7 +10,7 @@ export const Home = () => {
       <Navbar />      
       <About/>
       <Skills/>
-      <Projects/>
+      <Projects/>      
     </>
   );
 };

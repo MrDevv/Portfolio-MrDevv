@@ -8,7 +8,7 @@ export const Skills = () => {
       <h3>Skills</h3>
       <div className="container_all_skills">
         {skills.map(({ title, skills }) => (
-          <SkillsContainer title={title} skills={skills}/>
+          <SkillsContainer key={title} title={title} skills={skills}/>
         ))}
       </div>
     </div>
