@@ -12,8 +12,6 @@ export const Navbar = () => {
     setActiveSection(section === activeSection ? null : section);
   };
 
-  console.log(activeToggleMenu);
-
   return (
     <div className="container_navbar">
       <div className="container_logo_links_github container">     
