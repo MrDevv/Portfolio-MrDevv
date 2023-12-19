@@ -304,6 +304,7 @@ body {
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
+  margin-bottom: 5rem;
 }
 
 /* Card Project */
@@ -399,4 +400,56 @@ body {
 
 .card_project .buttons .view_live:hover{
   color: #fff;
+}
+
+/* Footer */
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+  gap: 3rem;
+}
+
+.footer span:first-child{
+  color: var(--second-bg-color);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.footer .navbar_footer{
+  display: flex;
+  gap: 3rem;
+}
+
+.footer .navbar_footer a{
+  text-decoration: none;
+  font-size: 1.9rem;
+  color: #fff;
+}
+
+.footer .navbar_footer a:hover{
+  color: var(--second-bg-color);
+}
+
+.footer .socials{
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.footer a i{
+  color: #fff;  
+  font-size: 2.2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer a i:hover{
+  color: var(--second-bg-color);
+}
+
+.footer span:last-child{
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
