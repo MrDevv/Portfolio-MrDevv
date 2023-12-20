@@ -1,8 +1,8 @@
 import React from "react";
 import { Navbar } from "../../components/Navbar";
-import { About } from "../About/About";
-import { Skills } from "../Skills/Skills";
-import { Projects } from "../Projects/Projects";
+import { About } from "../about/About";
+import { Skills } from "../skills/Skills";
+import { Projects } from "../projects/Projects";
 import { Footer } from "../../components/Footer";
 
 export const Home = () => {
