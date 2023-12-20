@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+// import logo from "../../../public/images/logo.png";
 
 export const About = () => {
   return (
@@ -28,7 +29,7 @@ export const About = () => {
           <a href="#">CV</a>
         </div>
         <div className="profile_image">
-          <img src="./src/assets/logo.png" alt="logo" />
+          <img src="assets/logo.jpg" alt="logo" />
         </div>
       </div>
     </div>
