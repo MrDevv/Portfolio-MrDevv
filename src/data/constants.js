@@ -80,7 +80,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjRjM0RjI5IiBkPSJNMTI0Ljc0MiA1OC4zNzhsLTU1LjExNy01NS4xMTRjLTMuMTcyLTMuMTc0LTguMzItMy4xNzQtMTEuNDk3IDBsLTExLjQ0MyAxMS40NDYgMTQuNTE4IDE0LjUxOGMzLjM3NS0xLjEzOSA3LjI0My0uMzc1IDkuOTMyIDIuMzE0IDIuNzAzIDIuNzA2IDMuNDYyIDYuNjA3IDIuMjkzIDkuOTkzbDEzLjk5MiAxMy45OTRjMy4zODUtMS4xNjcgNy4yOTItLjQxMyA5Ljk5NCAyLjI5NSAzLjc4IDMuNzc3IDMuNzggOS45IDAgMTMuNjc5LTMuNzggMy43OC05LjkwMSAzLjc4LTEzLjY4MyAwLTIuODQyLTIuODQ0LTMuNTQ1LTcuMDE5LTIuMTA1LTEwLjUyMWwtMTMuMDQ4LTEzLjA0OS0uMDAyIDM0LjM0MWMuOTIyLjQ1NSAxLjc5MSAxLjA2MyAyLjU1OSAxLjgyOCAzLjc3OSAzLjc3NyAzLjc3OSA5Ljg5OCAwIDEzLjY4My0zLjc3OSAzLjc3Ny05LjkwNCAzLjc3Ny0xMy42NzkgMC0zLjc3OC0zLjc4NC00LjA4OC05LjkwNS0uMzExLTEzLjY4My45MzQtLjkzMyAxLjg1NS0xLjYzOCAyLjg1NS0yLjExdi0zNC42NTljLTEtLjQ3Mi0xLjkyLTEuMTcyLTIuODU2LTIuMTExLTIuODYxLTIuODYtMy4zOTYtNy4wNi0xLjkyOC0xMC41NzZsLTE0LjIzMy0xNC4zMTMtMzcuNzU0IDM3Ljc5Yy0zLjE3NSAzLjE3Ny0zLjE1NSA4LjMyNS4wMiAxMS41bDU1LjEyNiA1NS4xMTRjMy4xNzMgMy4xNzQgOC4zMjUgMy4xNzQgMTEuNTAzIDBsNTQuODYtNTQuODU4YzMuMTc1LTMuMTc2IDMuMTc4LTguMzI3LjAwNC0xMS41MDF6Ii8+PC9zdmc+",
       },
       {
         name: "GitHub",
@@ -95,7 +95,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI0YzNjkzMyIgZD0iTTE4Ljg1NSA2LjA0OWEuMTQ1LjE0NSAwIDAgMC0uMDUzLjE1OXYtLjAwMWEuNDEyLjQxMiAwIDAgMS0uMDU0LjQ1bC4wMDEtLjAwMWEuMTM5LjEzOSAwIDAgMC0uMDMuMDg3YzAgLjA0NC4wMjEuMDg0LjA1My4xMWEuMTQzLjE0MyAwIDAgMCAuMDg0LjAzYy4wNDIgMCAuMDgtLjAyLjEwNi0uMDVhLjY5LjY5IDAgMCAwIC4wODYtLjc1Mi4xMzguMTM4IDAgMCAwLS4xOTMtLjAzMnpNMTkuMDQ5IDYuMDgybC0uMDAyLS4wMDQuMDAxLjAwM3oiLz48cGF0aCBmaWxsPSIjRjM2OTMzIiBkPSJNMTMuNTI3LjA5OUM2Ljk1NS0uNzQ0Ljk0MiAzLjkuMDk5IDEwLjQ3M2MtLjg0MyA2LjU3MiAzLjggMTIuNTg0IDEwLjM3MyAxMy40MjggNi41NzMuODQzIDEyLjU4OC0zLjgwMSAxMy40MjktMTAuMzc0QzI0Ljc0NSA2Ljk1NSAyMC4xMDIuOTQzIDEzLjUyNy4wOTl6bTIuNDcxIDcuNDg1YS44NTEuODUxIDAgMCAwLS41OTMuMjVsLTQuNDUzIDQuNDUzLS45NS0uOTVjNC4zODktNC4zNzYgNS4xODEtNC40MTggNS45OTYtMy43NTN6bS00Ljg2MyA0Ljg2MSA0LjQ0LTQuNDRhLjYyLjYyIDAgMSAxIC44NDguOTAybC0uMDAxLjAwMS00LjY5OSA0LjEyNS0uNTg4LS41ODh6bS4zMy42OTQtMS4xLjIzOGEuMDU3LjA1NyAwIDAgMS0uMDEzLjAwMS4wNi4wNiAwIDAgMS0uMDU0LS4wMzMuMDYuMDYgMCAwIDEgLjAxLS4wNzNsLjY0NS0uNjQ1LjUxMi41MTJ6bS0yLjgwMy0uNDU5IDEuMTcyLTEuMTcyLjg3OS44NzgtMS45NzkuNDI2YS4xMS4xMSAwIDAgMS0uMDE5LjAwMi4wNzQuMDc0IDAgMCAxLS4wNjYtLjA0MS4wNzEuMDcxIDAgMCAxLS4wMTEtLjAzOWMwLS4wMjEuMDA5LS4wNDEuMDI0LS4wNTR6bS0zLjY0NiA2LjA1N2EuMDc0LjA3NCAwIDAgMS0uMDY5LS4wNzV2LS4wMDhhLjA3Ny4wNzcgMCAwIDEgLjAyMi0uMDQ2aC4wMDJsLjk0Ni0uOTQ2IDEuMjIyIDEuMjIyLTIuMTIzLS4xNDd6bTIuNDI2LTEuMjU1YS4yMjcuMjI3IDAgMCAwLS4xMTcuMjU4di0uMDAybC4yMDMuODY1YS4xMjUuMTI1IDAgMCAxLS4yMTEuMTE3aC0uMDAzbC0xLjIyOC0xLjIyOSAzLjc2Mi0zLjc1OCAxLjgyLS4zOTMuODc0Ljg3NGMtMS4yNTUgMS4xMDItMi45NzEgMi4yMDEtNS4xIDMuMjY4em01LjI3OC0zLjQyOGgtLjAwMmwtLjgzOS0uODM5IDQuNjk5LTQuMTI1YS45ODUuOTg1IDAgMCAwIC4xMTctLjEyNWwuMDAyLS4wMDJjLS4xNDcgMS4zNDUtMi4wMjkgMy4yNDUtMy45NzcgNS4wOTF6bTQuOTQyLTUuOTI4YTEuODEgMS44MSAwIDAgMS0xLjI4NS0uNTMyaC4wMDFsLS4wMDMtLjAwMmExLjgyMiAxLjgyMiAwIDAgMSAyLjQ2MS0yLjY4MWwtLjAwMy0uMDAyLTEuNjEgMS42MTNhLjExNy4xMTcgMCAwIDAtLjAzNS4wODRjMCAuMDMzLjAxMy4wNjMuMDM1LjA4NGwxLjI0NyAxLjI0N2ExLjgwMSAxLjgwMSAwIDAgMS0uODA4LjE4OXptMS4yOTQtLjUzMmMtLjA4MS4wOC0uMTY5LjE1MS0uMjY1LjIxNGwtLjAwNi4wMDRoLS4wMDFsLTEuMjA3LTEuMjA3IDEuNTMzLTEuNTMzYy42NjEuNzIuNjM3IDEuODMyLS4wNTQgMi41MjJ6Ii8+PC9zdmc+",
       },
     ],
   },
@@ -104,82 +104,60 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    category: 'android app',
-    title: "Trackily",    
+    category: 'web app',
+    title: "Pokedex",    
     technologies: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
       "React Js",
-      "MongoDb",
-      "Node Js",
-      "Redux"
+      "Axios",
+      "Responsive Design",
+      "PokéApi"    
     ],
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image: 'https://imgs.search.brave.com/TEi-GIfwu1peQTxwjnmeJupe2DidX4XXvFK5E_RCV0Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpERXlOMk5o/TWpndE1qZGhOaTAw/TW1ObExXRTVZVGd0/WkdFNE16TmpNVFJs/TUdFd1hrRXlYa0Zx/Y0dkZVFYVnlORFV5/T1RnM05qZ0AuanBn',
-    url_code: 'www.google.com',
-    url_live: 'www.youtube.com',
+      "Pokedex es una página web que muestra y busca diversos pokemones por su nombre consumiendo la API oficial de Pokémon",
+    image: '/assets/pokedexweb.jpg',
+    url_code: 'https://github.com/MrDevv/Pokedex',
+    url_live: 'https://mrdevv-pokedex.netlify.app/',
     inLive: true
   },
-  {
-    id: 2,
-    category: 'web app',
-    title: "Trackily 2",
-    technologies: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint"      
-    ],
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image: 'https://imgs.search.brave.com/TEi-GIfwu1peQTxwjnmeJupe2DidX4XXvFK5E_RCV0Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpERXlOMk5o/TWpndE1qZGhOaTAw/TW1ObExXRTVZVGd0/WkdFNE16TmpNVFJs/TUdFd1hrRXlYa0Zx/Y0dkZVFYVnlORFV5/T1RnM05qZ0AuanBn',
-    url_code: 'www.google.com',
-    url_live: 'www.youtube.com',
-    inLive: true
-  },
-  {
-    id: 3,
-    category: 'android app',
-    title: "Trackily 3",
-    technologies: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "React Js",      
-    ],
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image: 'https://imgs.search.brave.com/TEi-GIfwu1peQTxwjnmeJupe2DidX4XXvFK5E_RCV0Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpERXlOMk5o/TWpndE1qZGhOaTAw/TW1ObExXRTVZVGd0/WkdFNE16TmpNVFJs/TUdFd1hrRXlYa0Zx/Y0dkZVFYVnlORFV5/T1RnM05qZ0AuanBn',
-    url_code: 'www.google.com',
-    url_live: 'www.youtube.com',
-    inLive: false
-  },
-  {
-    id: 4,
-    category: 'web app',
-    title: "Trackily 4",
-    technologies: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Redux",
-    ],
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image: 'https://imgs.search.brave.com/TEi-GIfwu1peQTxwjnmeJupe2DidX4XXvFK5E_RCV0Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpERXlOMk5o/TWpndE1qZGhOaTAw/TW1ObExXRTVZVGd0/WkdFNE16TmpNVFJs/TUdFd1hrRXlYa0Zx/Y0dkZVFYVnlORFV5/T1RnM05qZ0AuanBn',
-    url_code: 'www.google.com',
-    url_live: 'www.youtube.com',
-    inLive: false
-  },
+  // {
+  //   id: 2,
+  //   category: 'android app',
+  //   title: "Trackily 3",
+  //   technologies: [
+  //     "Docker",
+  //     "AWS",
+  //     "DuckDNS",
+  //     "Eslint",
+  //     "Husky",
+  //     "React Js",      
+  //   ],
+  //   description:
+  //     "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+  //   image: 'https://imgs.search.brave.com/TEi-GIfwu1peQTxwjnmeJupe2DidX4XXvFK5E_RCV0Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpERXlOMk5o/TWpndE1qZGhOaTAw/TW1ObExXRTVZVGd0/WkdFNE16TmpNVFJs/TUdFd1hrRXlYa0Zx/Y0dkZVFYVnlORFV5/T1RnM05qZ0AuanBn',
+  //   url_code: 'www.google.com',
+  //   url_live: 'www.youtube.com',
+  //   inLive: false
+  // },
+  // {
+  //   id: 4,
+  //   category: 'web app',
+  //   title: "Trackily 4",
+  //   technologies: [
+  //     "Docker",
+  //     "AWS",
+  //     "DuckDNS",
+  //     "Eslint",
+  //     "Husky",
+  //     "React Js",
+  //     "MongoDb",
+  //     "Node Js",
+  //     "Redux",
+  //   ],
+  //   description:
+  //     "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+  //   image: 'https://imgs.search.brave.com/TEi-GIfwu1peQTxwjnmeJupe2DidX4XXvFK5E_RCV0Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpERXlOMk5o/TWpndE1qZGhOaTAw/TW1ObExXRTVZVGd0/WkdFNE16TmpNVFJs/TUdFd1hrRXlYa0Zx/Y0dkZVFYVnlORFV5/T1RnM05qZ0AuanBn',
+  //   url_code: 'www.google.com',
+  //   url_live: 'www.youtube.com',
+  //   inLive: false
+  // },
 ];

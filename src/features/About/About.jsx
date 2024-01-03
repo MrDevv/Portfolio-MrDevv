@@ -8,10 +8,10 @@ export const About = () => {
       <div className="container_presentation_profile container">
         <div className="presentation">
           <h2>
-            Hi, I am <br /> Miguel Perez
+            Hola, soy <br /> Miguel Perez
           </h2>
           <p>
-            I am a{" "}
+            Soy{" "}
             <span>
               <Typewriter
                 options={{
@@ -23,10 +23,9 @@ export const About = () => {
             </span>
           </p>
           <p>
-            I'm currently studying systems engineering and I'm passionate about
-            the development of web and mobile applications.
+          Me apasiona el desarrollo de aplicaciones web y aplicaciones móviles.
           </p>
-          <a href="#">CV</a>
+          <a href="https://drive.google.com/file/d/1-1s5MPVQpjtbbQNMJTI_osueNE2o4OL8/view?usp=drivesdk" target="_blank">CV</a>
         </div>
         <div className="profile_image">
           <img src="assets/logo.jpg" alt="logo" />
