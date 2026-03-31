@@ -1,26 +1,30 @@
 import React from "react";
 
 export const Footer = () => {
+
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="footer">
       <span>Mr Devv</span>
       <div className="navbar_footer">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#experience">Experiencia</a>
+        <a href="#projects">Proyectos</a>
       </div>
       <div className="socials">
         <a href="https://www.instagram.com/mvegape_/" target="_blank">
-          <i class="fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-instagram"></i>
         </a>
         <a href="https://www.linkedin.com/in/miguelangelvegaperez/" target="_blank">
-          <i class="fa-brands fa-linkedin"></i>
+          <i className="fa-brands fa-linkedin"></i>
         </a>
         <a href="https://github.com/MrDevv" target="_blank">
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github"></i>
         </a>
       </div>
-      <span>© 2024 Mr Devv. All rights reserved.</span>
+      <span>© {currentYear} Mr Devv. All rights reserved.</span>
     </div>
   );
 };

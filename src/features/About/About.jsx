@@ -10,18 +10,18 @@ export const About = () => {
           <h2>
             Hola, soy <br /> Miguel Perez
           </h2>
-          <p>
-            Soy{" "}
+          <div>
+            <p>Soy{" "}</p>
             <span>
-              <Typewriter
-                options={{
-                  strings: ["Full Stack Developer", "Android Developer"],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
+                  <Typewriter
+                    options={{
+                      strings: ["Full Stack Developer"],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
             </span>
-          </p>
+          </div>          
           <p>
           Me apasiona el desarrollo de aplicaciones web y aplicaciones móviles.
           </p>

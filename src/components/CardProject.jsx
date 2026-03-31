@@ -1,28 +1,25 @@
-import React from "react";
-
-export const CardProject = ({ project }) => {  
-  console.log(project);
-    const { title, image, technologies, description, url_code, url_live, inLive } = project;
+export const CardProject = ({ project }) => {    
+    const { titulo, url_imagen_presentacion, etiquetas, descripcion, url_repositorio, url_produccion, inLive } = project;
   return (
     <div className="card_project">
       {/* <img src={image} alt={title} /> */}
-      <img src="/assets/pokedexweb.jpg" alt={title} />
+      <img src={url_imagen_presentacion} alt={titulo} />
       <div className="technologies">
-        {technologies.map((technology) => (
-          <span key={technology} className="technology">{technology}</span>
+        {etiquetas.map((etiqueta) => (
+          <span key={etiqueta.etiqueta_id} className="technology">{etiqueta.descripcion}</span>
         ))}
       </div>
       <div className="description">
-        <div className="title">{title}</div>
-        <p className="information">{description}</p>
+        <div className="title">{titulo}</div>
+        <p className="information">{descripcion}</p>
       </div>
       <div className="buttons">
-        <a className="view_code" href={url_code} target="_blank">
-          View Code
+        <a className="view_code" href={url_repositorio} target="_blank">
+          Ver repositorio
         </a>
         {inLive && (
-          <a className="view_live" href={url_live} target="_blank">
-            View Live App
+          <a className="view_live" href={url_produccion} target="_blank">
+            Ver en vivo
           </a>
         )}
       </div>

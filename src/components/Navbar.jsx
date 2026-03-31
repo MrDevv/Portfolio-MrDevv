@@ -34,7 +34,7 @@ export const Navbar = () => {
             }}
             href="#about"
           >
-            About
+            Sobre mí
           </a>
           <a
             className={isActive("skills")}
@@ -44,7 +44,10 @@ export const Navbar = () => {
             }}
             href="#skills"
           >
-            Skills
+            Habilidades
+          </a>
+          <a href="#">
+            Experiencia
           </a>
           <a
             className={isActive("projects")}
@@ -54,7 +57,7 @@ export const Navbar = () => {
             }}
             href="#projects"
           >
-            Projects
+            Proyectos
           </a>
         </div>
         <div className="github">
