@@ -310,7 +310,8 @@ body {
 }
 
 .section_skills h3,
-.section_projects h3 {
+.section_projects h3,
+.section_experience h3 {
   color: #fff;
   font-size: 4.2rem;
   font-weight: 600;
@@ -336,6 +337,7 @@ body {
 .container_skill h4 {
   text-align: center;
   font-size: 2.8rem;
+  text-transform: capitalize;
   font-weight: 600;
   color: #b1b2b3;
   margin-bottom: 1.5rem;

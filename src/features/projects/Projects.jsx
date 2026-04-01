@@ -8,8 +8,6 @@ export const Projects = () => {
   const [optionSelected, setoptionSelected] = useState("all");
   const {proyectos, loading, error} = useProyectos();
 
-  console.log({proyectos, loading, error});
-
   const tipoProyectos = [
   ...new Set(proyectos.map(p => p.tipo_proyecto.descripcion))
   ];  
