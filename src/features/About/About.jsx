@@ -1,21 +1,26 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-// import logo from "../../../public/images/logo.png";
 
-export const About = () => {
+export const About = ({desarrollador}) => {  
+
+  const puesto = desarrollador.puesto || "";
+  const nombres = desarrollador.nombres && desarrollador.nombres.split(" ")[0];
+  const apellidos = desarrollador.apellidos && desarrollador.apellidos.split(" ")[0];
+  
+
   return (
     <div id="about" className="container_about">
       <div className="container_presentation_profile container">
         <div className="presentation">
           <h2>
-            Hola, soy <br /> Miguel Perez
+            Hola, soy <br /> { nombres } { apellidos }
           </h2>
           <div>
             <p>Soy{" "}</p>
             <span>
                   <Typewriter
                     options={{
-                      strings: ["Full Stack Developer"],
+                      strings: [puesto],
                       autoStart: true,
                       loop: true,
                     }}
@@ -23,12 +28,12 @@ export const About = () => {
             </span>
           </div>          
           <p>
-          Me apasiona el desarrollo de aplicaciones web y aplicaciones móviles.
+          { desarrollador.biografia }
           </p>
-          <a href="https://drive.google.com/file/d/1-1s5MPVQpjtbbQNMJTI_osueNE2o4OL8/view?usp=drivesdk" target="_blank">CV</a>
+          <a href={ desarrollador.cv_url } target="_blank">CV</a>
         </div>
         <div className="profile_image">
-          <img src="assets/logo.jpg" alt="logo" />
+          <img src={ desarrollador.logo_url } alt="logo" />
         </div>
       </div>
     </div>

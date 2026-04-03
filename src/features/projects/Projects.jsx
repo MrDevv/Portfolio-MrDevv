@@ -1,24 +1,12 @@
 import React, { useState } from "react";
-import { projects } from "../../data/constants";
 import { CardProject } from "../../components/CardProject";
-import { useProyectos } from "../../hooks/useProyectos";
-import Swal from "sweetalert2";
 
-export const Projects = () => {
-  const [optionSelected, setoptionSelected] = useState("all");
-  const {proyectos, loading, error} = useProyectos();
+export const Projects = ({proyectos}) => {
+  const [optionSelected, setoptionSelected] = useState("all");  
 
   const tipoProyectos = [
   ...new Set(proyectos.map(p => p.tipo_proyecto.descripcion))
   ];  
-
-  if (error) {
-    Swal.fire({
-      icon: "error",
-      title: "Error",
-      text: error.message
-    });
-  }
 
   const isActive = (option) =>
     optionSelected === option ? "option_active" : "";

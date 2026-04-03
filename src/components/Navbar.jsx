@@ -46,7 +46,14 @@ export const Navbar = () => {
           >
             Habilidades
           </a>
-          <a href="#">
+          <a
+            className={isActive("experience")}
+            onClick={() => {
+              handleLinkClick("experience");
+              setactiveToggleMenu(!activeToggleMenu);
+            }}
+            href="#experience"
+          >
             Experiencia
           </a>
           <a

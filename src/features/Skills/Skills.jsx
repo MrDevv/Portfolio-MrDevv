@@ -1,10 +1,8 @@
 import React from "react";
 import { SkillsContainer } from "../../components/SkillsContainer";
-import { useTecnologias } from "../../hooks/useTecnologias";
 
-export const Skills = () => {
-
-  const {tecnologias, loading, error } =  useTecnologias();
+export const Skills = ({tecnologias}) => {
+  
   let tecnologiasFormateadas = {}
   
   const tituloTecnologias = [
@@ -27,7 +25,7 @@ export const Skills = () => {
   
   return (
     <div id="skills" className="section_skills">
-      <h3>Skills</h3>
+      <h3>Habilidades</h3>
       <div className="container_all_skills">
         {
           Object.entries(tecnologiasFormateadas).map(([titulo, tecnologias]) => (                        
