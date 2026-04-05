@@ -4,8 +4,8 @@ import { getProyectos } from "../services/proyectoService";
 
 export const useProyectos = () => {
     const [proyectos, setProyectos] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+    const [loadingProjects, setLoading] = useState(true);
+    const [errorProjects, setError] = useState(null);
 
     useEffect(() => {
         const obtenerProyectos = async () => {
@@ -22,5 +22,5 @@ export const useProyectos = () => {
         obtenerProyectos();
     }, []);
 
-    return { proyectos, loading, error };
+    return { proyectos, loadingProjects, errorProjects };
 }

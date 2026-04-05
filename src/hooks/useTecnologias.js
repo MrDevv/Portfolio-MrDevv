@@ -5,8 +5,8 @@ import { getTecnologias } from "../services/tecnologiaService";
 export const useTecnologias = () => {
 
     const [tecnologias, setTecnologias] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+    const [loadingSkills, setLoading] = useState(true);
+    const [errorSkills, setError] = useState(null);
 
     useEffect(() => {
         const obtenerTecnologias = async () => {
@@ -23,6 +23,6 @@ export const useTecnologias = () => {
         obtenerTecnologias();
     }, [])
 
-    return { tecnologias, loading, error };
+    return { tecnologias, loadingSkills, errorSkills };
 
 }

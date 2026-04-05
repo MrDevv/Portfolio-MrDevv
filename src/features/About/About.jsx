@@ -15,8 +15,7 @@ export const About = ({desarrollador}) => {
           <h2>
             Hola, soy <br /> { nombres } { apellidos }
           </h2>
-          <div>
-            <p>Soy{" "}</p>
+          <div>            
             <span>
                   <Typewriter
                     options={{
