@@ -6,8 +6,8 @@ import { getExperiencias } from "../services/experienciaService";
 export const useExperiencias = () => {
 
     const [experiencias, setExperiencias] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+    const [loadingExperience, setLoading] = useState(true);
+    const [errorExperience, setError] = useState(null);
 
     useEffect(() => {
         const obtenerExperiencias = async () => {
@@ -24,6 +24,6 @@ export const useExperiencias = () => {
         obtenerExperiencias();
     }, [])
 
-    return { experiencias, loading, error };
+    return { experiencias, loadingExperience, errorExperience };
 
 }

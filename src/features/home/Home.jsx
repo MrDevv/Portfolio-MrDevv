@@ -6,6 +6,7 @@ import { Footer } from "../../components/Footer";
 import { About } from "../About/About";
 import { Experience } from "../experience/Experience";
 import { Skills } from "../Skills/Skills";
+import { Loader } from "../../components/Loader";
 import { useDesarrollador } from "../../hooks/useDesarrollador";
 import { useTecnologias } from "../../hooks/useTecnologias";
 import { useExperiencias } from "../../hooks/useExperiencias";
@@ -21,10 +22,6 @@ export const Home = () => {
   const {proyectos, loadingProjects, errorProjects} = useProyectos();
   
 
-
-  console.log({ errorDesarrollador, errorSkills, errorExperience, errorProjects });
-  
-
   if (errorSkills || errorDesarrollador || errorExperience || errorProjects) {
     Swal.fire({
       icon: "error",
@@ -36,7 +33,7 @@ export const Home = () => {
   return (
     <>
     {
-      (loadingDesarrollador || loadingSkills || loadingExperience || loadingProjects)  && <div className="loader_container"> <span className="loader"></span> </div>      
+      (loadingDesarrollador || loadingSkills || loadingExperience || loadingProjects)  && <Loader />
     }
       <Navbar />      
       <About desarrollador={desarrollador}/>
