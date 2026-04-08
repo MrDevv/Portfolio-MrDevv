@@ -4,9 +4,13 @@ import { formatearFecha } from "../../helpers/formatearFecha";
 
 export const Experience = ({experiencias}) => {    
 
-    experiencias.forEach(experiencia => {
-        experiencia.fecha_inicio = formatearFecha(experiencia.fecha_inicio);
-        experiencia.fecha_fin = formatearFecha(experiencia.fecha_fin);
+    const experienciasFormateadas = experiencias.map(experiencia => {
+        return {
+            ...experiencia,
+            fecha_inicio: formatearFecha(experiencia.fecha_inicio),
+            fecha_fin: experiencia.fecha_fin ? formatearFecha(experiencia.fecha_fin) : "Actualidad"
+        }
+        
     })
 
     return (
@@ -14,7 +18,7 @@ export const Experience = ({experiencias}) => {
         <h3>Experiencia</h3>
         <div className="container_all_experience">
             {
-                experiencias.map(experiencia => (
+                experienciasFormateadas.map(experiencia => (
                     <CardExperience key={experiencia.experiencia_id} experiencia={experiencia}/>
                 ))
             }

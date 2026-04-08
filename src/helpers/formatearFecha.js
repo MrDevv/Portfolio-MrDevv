@@ -1,5 +1,5 @@
-export function formatearFecha(fecha) {
-    const date = new Date(fecha);
+export function formatearFecha(fecha) {    
+    const date = new Date(fecha + "T00:00:00");
 
     let resultado = date.toLocaleDateString("es-PE", {
         month: "long",
