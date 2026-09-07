@@ -1,5 +1,7 @@
 export const CardProject = ({ project }) => {    
-    const { titulo, url_imagen_presentacion, etiquetas, descripcion, url_repositorio, url_produccion, inLive } = project;
+    const { titulo, url_imagen_presentacion, etiquetas, descripcion, url_repositorio, url_produccion } = project;
+    console.log(project);
+    
   return (
     <div className="card_project">
       {/* <img src={image} alt={title} /> */}
@@ -15,11 +17,11 @@ export const CardProject = ({ project }) => {
       </div>
       <div className="buttons">
         <a className="view_code" href={url_repositorio} target="_blank">
-          Ver repositorio
+          Repositorio
         </a>
-        {inLive && (
+        {url_produccion && (
           <a className="view_live" href={url_produccion} target="_blank">
-            Ver en vivo
+            Demo
           </a>
         )}
       </div>
