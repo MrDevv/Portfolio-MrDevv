@@ -14,9 +14,6 @@ export const Footer = () => {
         <a href="#projects">Proyectos</a>
       </div>
       <div className="socials">
-        <a href="https://www.instagram.com/mvegape_/" target="_blank">
-          <i className="fa-brands fa-instagram"></i>
-        </a>
         <a href="https://www.linkedin.com/in/miguelangelvegaperez/" target="_blank">
           <i className="fa-brands fa-linkedin"></i>
         </a>

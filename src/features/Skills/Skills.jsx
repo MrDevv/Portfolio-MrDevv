@@ -3,21 +3,32 @@ import { SkillsContainer } from "../../components/SkillsContainer";
 
 export const Skills = ({tecnologias}) => {
   
+  
   let tecnologiasFormateadas = {}
   
   const tituloTecnologias = [
-    ...new Set(tecnologias.map(tecnologia => tecnologia.tipo_tecnologia))
+    ...new Set(tecnologias.map(tecnologia => tecnologia.tipoTecnologia))
   ]
 
   tituloTecnologias.forEach(titulo => {
     tecnologias.forEach(tecnologia => {
-      if (titulo === tecnologia.tipo_tecnologia) {
-        tecnologiasFormateadas = {
-          ...tecnologiasFormateadas,
-            [titulo]: [...tecnologiasFormateadas[titulo] || [], {
-              nombre: tecnologia.descripcion,
-              logo_url: tecnologia.logo_url
-            }]
+      if (titulo === tecnologia.tipoTecnologia) {
+        if (tecnologia.tipoTecnologia === 'bases de datos') {
+          tecnologiasFormateadas = {
+            ...tecnologiasFormateadas,
+              ['backend']: [...tecnologiasFormateadas['backend'] || [], {
+                nombre: tecnologia.tecnologia,
+                logo_url: tecnologia.logoURL
+              }]
+          }
+        }else{
+          tecnologiasFormateadas = {
+            ...tecnologiasFormateadas,
+              [titulo]: [...tecnologiasFormateadas[titulo] || [], {
+                nombre: tecnologia.tecnologia,
+                logo_url: tecnologia.logoURL
+              }]
+          }
         }
       }
     })

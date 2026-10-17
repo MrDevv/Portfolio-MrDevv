@@ -6,7 +6,7 @@ export const Projects = ({proyectos}) => {
 
   const tipoProyectos = [
   ...new Set(proyectos.map(p => p.tipo_proyecto.descripcion))
-  ];  
+  ];    
 
   const isActive = (option) =>
     optionSelected === option ? "option_active" : "";
@@ -40,12 +40,12 @@ export const Projects = ({proyectos}) => {
           >
             {optionSelected === "all"
               ? proyectos.map((project) => (
-                  <CardProject key={project.proyecto_id} project={project} />
+                  <CardProject key={project.proyecto_uuid} project={project} />
                 ))
               : proyectos
                   .filter((project) => project.tipo_proyecto.descripcion === optionSelected)
                   .map((project) => (
-                    <CardProject key={project.proyecto_id} project={project} />
+                    <CardProject key={project.proyecto_uuid} project={project} />
                   ))}
           </div>
       </div>

@@ -33,14 +33,19 @@ export const Home = () => {
   return (
     <>
     {
-      (loadingDesarrollador || loadingSkills || loadingExperience || loadingProjects)  && <Loader />
+      (loadingDesarrollador || loadingSkills || loadingExperience || loadingProjects) ? (
+        <Loader />
+      ) : (
+        <>
+          <Navbar />      
+          <About desarrollador={desarrollador}/>
+          <Skills tecnologias={tecnologias}/>
+          <Experience experiencias={experiencias}/>
+          <Projects proyectos={proyectos}/>
+          <Footer/>
+        </>
+      )
     }
-      <Navbar />      
-      <About desarrollador={desarrollador}/>
-      <Skills tecnologias={tecnologias}/>
-      <Experience experiencias={experiencias}/>
-      <Projects proyectos={proyectos}/>
-      <Footer/>
     </>
   );
 };

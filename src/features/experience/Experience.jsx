@@ -7,8 +7,8 @@ export const Experience = ({experiencias}) => {
     const experienciasFormateadas = experiencias.map(experiencia => {
         return {
             ...experiencia,
-            fecha_inicio: formatearFecha(experiencia.fecha_inicio),
-            fecha_fin: experiencia.fecha_fin ? formatearFecha(experiencia.fecha_fin) : "Actualidad"
+            fechaInicio: formatearFecha(experiencia.fechaInicio),
+            fechaFin: experiencia.fechaFin ? formatearFecha(experiencia.fechaFin) : "Actualidad"
         }
         
     })
@@ -19,7 +19,7 @@ export const Experience = ({experiencias}) => {
         <div className="container_all_experience">
             {
                 experienciasFormateadas.map(experiencia => (
-                    <CardExperience key={experiencia.experiencia_id} experiencia={experiencia}/>
+                    <CardExperience key={experiencia.experienciaUUID} experiencia={experiencia}/>
                 ))
             }
 

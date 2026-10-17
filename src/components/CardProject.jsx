@@ -1,6 +1,5 @@
 export const CardProject = ({ project }) => {    
-    const { titulo, url_imagen_presentacion, etiquetas, descripcion, url_repositorio, url_produccion } = project;
-    console.log(project);
+    const { titulo, url_imagen_presentacion, etiquetas, descripcion, url_repositorio, url_produccion } = project;    
     
   return (
     <div className="card_project">
@@ -8,7 +7,7 @@ export const CardProject = ({ project }) => {
       <img src={url_imagen_presentacion} alt={titulo} />
       <div className="technologies">
         {etiquetas.map((etiqueta) => (
-          <span key={etiqueta.etiqueta_id} className="technology">{etiqueta.descripcion}</span>
+          <span key={etiqueta.etiqueta_uuid} className="technology">{etiqueta.descripcion}</span>
         ))}
       </div>
       <div className="description">
